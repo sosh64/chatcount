@@ -16,8 +16,8 @@
             font-family: Arial, sans-serif;
             background-color: #f4f7fb; /* Light background for contrast */
             color: #333;
-            line-height: 1.8; /* Ensures text has enough spacing between lines */
-            font-size: 75px; /* Font size for better readability */
+            line-height: 1.8; /* Spacing between lines for readability */
+            font-size: 75px; /* Font size for body text */
             padding: 40px;
             margin: 0;
             display: flex;
@@ -26,52 +26,60 @@
             align-items: center;
         }
 
+        /* Container that holds the content */
         .container {
             width: 80%;
             max-width: 1200px;
-            background-color: white;
+            background-color: #fff;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
+        /* Main title */
         h1 {
             font-size: 100px; /* Title font size */
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 40px; /* Extra space below the title */
             color: #2c3e50;
         }
 
+        /* Subheadings */
         h2 {
             font-size: 100px; /* Subheading font size */
-            margin-top: 30px;
+            margin-top: 40px; /* Space before subheadings */
+            margin-bottom: 20px; /* Space after subheading */
             color: #34495e;
-            line-height: 1.5; /* Better readability for subheadings */
         }
 
+        /* Paragraphs */
         p {
-            font-size: 75px; /* Body text font size */
-            margin-bottom: 20px;
-            text-align: justify; /* Ensures text aligns across the width of the container */
+            font-size: 75px; /* Normal text font size */
+            margin-bottom: 30px; /* Space between paragraphs */
+            text-align: justify; /* Makes sure the text stretches across the width */
+            line-height: 1.8; /* Ensures readability */
         }
 
+        /* List items */
         ul {
             font-size: 75px; /* List font size */
-            margin-bottom: 20px;
-            text-align: justify; /* Ensures list text flows well */
-            margin-left: 40px;
+            margin-bottom: 30px; /* Space after lists */
+            margin-left: 40px; /* Indentation for list items */
+            line-height: 1.8;
         }
 
         li {
-            margin-bottom: 10px; /* Adds spacing between list items */
+            margin-bottom: 15px; /* Adds space between list items */
         }
 
+        /* Horizontal lines */
         hr {
-            margin: 30px 0;
+            margin: 40px 0;
             border: 0;
             border-top: 2px solid #e1e1e1;
         }
 
+        /* Links */
         a {
             color: #3498db;
             text-decoration: none;
@@ -81,6 +89,7 @@
             text-decoration: underline;
         }
 
+        /* Footer */
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -88,18 +97,19 @@
             color: #7f8c8d;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
             body {
-                font-size: 50px; /* Smaller text for mobile */
+                font-size: 50px; /* Adjust font size for smaller screens */
                 padding: 20px;
             }
 
             h1 {
-                font-size: 80px; /* Smaller title for mobile */
+                font-size: 80px; /* Adjust title font size for smaller screens */
             }
 
             h2 {
-                font-size: 80px; /* Smaller subheadings for mobile */
+                font-size: 80px; /* Adjust subheading font size for smaller screens */
             }
 
             .container {
