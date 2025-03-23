@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service for ChatCount</title>
     <style>
-        /* Reset some default styles */
+        /* General reset for margins, padding, and box model */
         * {
             margin: 0;
             padding: 0;
@@ -13,62 +13,65 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f7fb; /* Soft light background */
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb; /* Light background for contrast */
             color: #333;
-            line-height: 1.8; /* Increased line height for better readability */
-            font-size: 75px; /* Larger text for readability */
+            line-height: 1.8; /* Ensures text has enough spacing between lines */
+            font-size: 75px; /* Font size for better readability */
             padding: 40px;
             margin: 0;
             display: flex;
             justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
 
-        /* Container for the content */
         .container {
             width: 80%;
             max-width: 1200px;
-            background-color: #fff;
+            background-color: white;
             padding: 40px;
-            border-radius: 15px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Main title */
         h1 {
-            font-size: 100px; /* Title set to 100px */
+            font-size: 100px; /* Title font size */
             text-align: center;
             margin-bottom: 20px;
             color: #2c3e50;
         }
 
-        /* Subheadings */
         h2 {
-            font-size: 100px; /* Subheadings set to 100px */
+            font-size: 100px; /* Subheading font size */
             margin-top: 30px;
             color: #34495e;
+            line-height: 1.5; /* Better readability for subheadings */
         }
 
-        /* Paragraphs and list items */
-        p, ul {
-            font-size: 75px; /* Normal text set to 75px */
+        p {
+            font-size: 75px; /* Body text font size */
             margin-bottom: 20px;
-            text-align: justify; /* Ensure text flows properly across the page */
+            text-align: justify; /* Ensures text aligns across the width of the container */
         }
 
         ul {
-            list-style-type: disc;
+            font-size: 75px; /* List font size */
+            margin-bottom: 20px;
+            text-align: justify; /* Ensures list text flows well */
             margin-left: 40px;
         }
 
-        /* Horizontal lines for separation */
+        li {
+            margin-bottom: 10px; /* Adds spacing between list items */
+        }
+
         hr {
             margin: 30px 0;
             border: 0;
             border-top: 2px solid #e1e1e1;
         }
 
-        /* Links (mail link) */
         a {
             color: #3498db;
             text-decoration: none;
@@ -78,7 +81,6 @@
             text-decoration: underline;
         }
 
-        /* Footer */
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -86,18 +88,20 @@
             color: #7f8c8d;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             body {
-                font-size: 50px; /* Adjust font size for smaller screens */
+                font-size: 50px; /* Smaller text for mobile */
                 padding: 20px;
             }
+
             h1 {
-                font-size: 80px; /* Adjust title for smaller screens */
+                font-size: 80px; /* Smaller title for mobile */
             }
+
             h2 {
-                font-size: 80px; /* Adjust subheaders for smaller screens */
+                font-size: 80px; /* Smaller subheadings for mobile */
             }
+
             .container {
                 width: 100%;
                 padding: 20px;
